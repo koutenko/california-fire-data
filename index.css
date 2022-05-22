@@ -1,0 +1,38 @@
+:root {
+    font-size: 14px;
+}
+
+.thead,
+tr {
+    background-color: rgb(248, 125, 125);
+}
+
+.headers {
+    background-color: rgb(248, 125, 125);
+}
+
+.tr,
+th {
+    white-space: nowrap;
+    padding: 1rem;
+    text-align: left;
+    background-color: rgb(240, 240, 240);
+}
+
+tbody,
+tr:nth-child(even) {
+    background-color: aqua;
+}
+
+) tr:nth-child(odd) {
+    background-color: rgb(242, 193, 193);
+}
+
+.tbody,
+tr,
+td {
+    white-space: nowrap;
+    width: 20%;
+    overflow-wrap: break-word;
+    padding: 0.5rem;
+}
